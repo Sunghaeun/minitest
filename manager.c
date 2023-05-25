@@ -54,9 +54,6 @@ int loadData(Product *p){
 
 	//파일 내용을 읽어와서 배열에 값 추가하기
 
-
-
-
 	printf("=> 로딩 성공!\n");
 	return count;
 }
