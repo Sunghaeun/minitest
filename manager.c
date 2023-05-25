@@ -13,6 +13,7 @@ int selectMenu(){
     scanf("%d", &menu);
     return menu;
 }
+
 void listProduct(Product *p,int count){
 
     printf("\nNo. Name          weight price\n");
