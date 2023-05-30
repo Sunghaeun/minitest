@@ -7,7 +7,7 @@ int main(void){
     Product slist[100];
     int curcount=0;
     int count = 0, menu;
-    
+     
     count = loadData(slist);
     curcount=count; 
 
