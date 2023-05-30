@@ -19,8 +19,8 @@ int main(void){
 		    if (count==0){ 
                 printf(" 데이터가 없습니다!\n");
 			    continue;
-			}
 		}
+	}
 
         if(menu == 1) listProduct(slist,curcount); 
         else if (menu == 2) {
