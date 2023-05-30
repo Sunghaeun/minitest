@@ -12,6 +12,7 @@ int createProduct(Product *p){
     scanf("%d",&p->price);
     
     printf("==> 추가됨\n"); 
+    
     return 1;
 }
 
