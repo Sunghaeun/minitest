@@ -42,6 +42,7 @@ void saveData(Product p[], int count){
 	fp= fopen("product.txt","wt");
 	
 	fclose(fp);
+	
 	printf("저장됨!\n");
 }
 
