@@ -2,9 +2,11 @@
 #include <string.h>
 
 typedef struct{
+	
 	char name[60];
 	int weight;
 	int price;
+	
 } Product;
 
 int createProduct(Product *p);
